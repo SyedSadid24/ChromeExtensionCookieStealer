@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="right">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Chrome</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ch-rad.css">
+  </head>
+  <body>
+    <div class="top-clean">
+      <img src="img/info.svg" alt="info" id="about" class="about">
+  		<div class="grid1">
+  			<div class="col-xs-3">
+  				<img src="img/logo.svg" class="logo">
+  			</div>
+  			<div class="col-xs-9">
+  				<div class="clear-hd">Clean the Last :</div>
+  				<form>
+            <select id="timeframe" class=" select-class">
+              <option value="fivem">Five Minutes</option>
+              <option value="tenm">Ten Minutes</option>
+              <option value="thirty">Thirty Minutes</option>
+              <option value="1hour">One Hour</option>
+              <option value="2hours">Two Hours</option>
+              <option value="day">24 hours</option>
+              <option value="week">Past Week</option>
+              <option value="4week">Past 4 Weeks</option>
+              <option value="forever">All</option>
+            </select>
+            <br>
+          </form>
+        </div>
+      </div>
+      <hr>
+      <div class="hide2">
+        <div class="clear-hd2">What would you like to Clean :</div>
+        <div></div>
+        <div class="grid2">
+          <div class="col-xs-6">
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="history" name="history" value="history" checked>
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear History</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="cache" name="cache" value="cache">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Cache</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="cookies" name="cookies" value="cookies">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Cookies</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="downloads" name="downloads" value="downloads">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Downloads</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="formdata" name="formdata" value="formdata">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Form Data</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="ls" name="ls" value="ls">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Local Storage</span>
+              </label>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="passwords" name="passwords" value="passwords">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Passwords</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="fileSystems" name="fileSystems" value="fileSystems">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear File Systems</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="indexeddb" name="indexeddb" value="indexeddb">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear IndexedDB</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="websql" name="websql" value="websql">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear WebSQL</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="plugin" name="plugin" value="plugin">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Plug-In Data</span>
+              </label>
+            </div>
+            <div class="filters checkboxes">
+              <label>
+                <input type="checkbox" id="sc" name="sc" value="sc">
+                <span class="icon"><img src="img/check.svg" alt="check" class="reg-check"></span>
+                <span class="chbox-txt">Clear Server Certi.</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="clear-blue-txt">This action cannot be undone</div>
+        <button id="button" class="btn-blue btn">Clean</button>
+      </div>
+      <div class="show2">
+        <span class="show2-txt1">Your Recent Data was cleared.</span><br>
+        <span class="show2-txt2">Safe Browsing!</span>
+        <br><br>
+        <button id="button2" class="btn-blue btn">Thanks!</button>
+      </div>
+    </div>
+    <div class="aboutme">
+      <div class="clean-logo">
+        <img src="img/clean-logo.png" class="logo-abt">
+      </div>
+      <span class="show2-txt1" id="version"></span>
+      <br><br>
+      <span class="show2-txt3">Thank you for using Cleaner.</span>
+      <br>
+      <span class="show2-txt3">If you found it usefull,<br>Kindly do rate Cleaner.</span>
+      <br><br>
+      <div class="crafted">Crafted with ❤️in Bangalore, India</div>
+      <br>
+      <div class="info-buttons">
+        <button id="button3" class="btn-blue2 btn icon-btn">
+          <img src="img/back.svg" alt="back"> Back
+        </button>
+        <a href="" target="_blank" class="btn-blue2 btn icon-btn">
+          <img src="img/star.svg" alt="star"> Rate Now
+        </a>
+      </div>
+    </div>
+    <script src="myscript.js"></script>
+  </body>
+</html>

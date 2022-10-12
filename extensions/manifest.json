@@ -1,0 +1,28 @@
+﻿{
+  "name": "Chrome Cleaner",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is a lite weight advanced Google Chrome Cleaner",
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "cookies"
+  ],
+  "action": {
+    "default_title": "Chrome Cleaner Title",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "img/clear.png"
+    }
+  },
+  "icons": {
+    "128": "img/clear.png",
+    "26": "img/clear.png",
+    "48": "img/clear.png"
+ }
+}
